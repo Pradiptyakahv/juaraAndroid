@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pilihan">
+
+    <Button
+        android:id="@+id/bt_head"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="304dp"
+        android:backgroundTint="#1F59B6"
+        android:fontFamily="sans-serif"
+        android:text="Mr Head"
+        android:textSize="16sp"
+        app:cornerRadius="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_recycler"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#1F59B6"
+        android:fontFamily="sans-serif"
+        android:text="Recycler"
+        android:textSize="16sp"
+        app:cornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_about"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/bt_about"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#1F59B6"
+        android:fontFamily="sans-serif"
+        android:text="About Us"
+        android:textSize="16sp"
+        app:cornerRadius="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_head" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif"
+        android:text="Silakan Dipilih"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_head"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
